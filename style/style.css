@@ -601,3 +601,49 @@ margin: 0 0 40px 0;
   font-size: 26px;
   margin: 0 0 60px 0; 
  }
+
+ .subrayado-together{
+  width: 420px;
+  height: 39px;
+  bottom:220px;
+  left:193px;
+  background: #bdbfff;
+  position: absolute;
+  top: 500px;
+z-index: -1;
+}
+.subrayado-tomorrow {
+  width: 433px;
+  height: 39px;
+  bottom:220px;
+  left:193px;
+  background: #bdbfff;
+  position: absolute;
+  top: 373px;
+z-index: -1;
+}
+
+.buttons {
+    
+  min-width: 260px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #97c6e1;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
